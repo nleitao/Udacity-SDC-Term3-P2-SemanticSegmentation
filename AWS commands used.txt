@@ -1,0 +1,17 @@
+ git clone https://github.com/nleitao/Udacity-SDC-SemanticSegmentation.git
+  749  cd Udacity-SDC-SemanticSegmentation/
+  777  conda install -c conda-forge tqdm
+  787  cd data/
+  791  wget http://kitti.is.tue.mpg.de/kitti/data_road.zip 
+  798  unzip data_road.zip 
+  800  cd ..
+
+python main.py
+
+usar scp para copiar as imagens criadas para o meu desktop local
+
+
+
+
+
+scp -i ~/Desktop/amazon.pem ~/Desktop/MS115.fa  ubuntu@ec2-54-166-128-20.compute-1.amazonaws.com:~/data/
